@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div.tab {
+  margin-left:20px;
+}
+
+ul.tab_btn{
+
+  list-style: none !important;
+  position: relative;
+  display: flex !important;
+  padding: 6px;
+  margin: 20px;
+}
+li.tabTitle {
+  margin-right: 5px;
+}
+button.tabBtn {
+  font-size: medium;
+  font-weight: 400;
+  font-family: inherit;
+  background-color: #999999;
+  color: white;
+  border: none;
+}
+button.tabSelected {
+  font-size: large;
+  font-weight: 400;
+  font-family: inherit;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+}
+
+.fileSelectBtn {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  border: 1px dashed #BBB;
+  background-color: aliceblue;
+  font-family: calibri;
+}
+
+.uploadBtn[disabled]{
+  background-color: #BBBBBB;
+}
+.uploadBtn {
+  background-color: dodgerblue;
+  font-palette: white;
+}
+div.tab {
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid #999;
+  background: #EEE;
+  padding: 5px 12px;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+}
+.tabSelected ~.tab {
+  border-top: 1px solid grey;
+  padding: 10px;
+}
+.error{
+  border:1px solid;
+  color: #D8000E;
+  background-color: #fc8c84;
+  margin: 10px auto;
+  padding: 10px 8px 10px 50px;
+  max-width: 450px;
+}
